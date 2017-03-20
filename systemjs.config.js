@@ -23,7 +23,7 @@
       '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 
-      'ng2-adal': 'npm:ng2-adal',
+      'ng2-adal-popup-fork': 'npm:ng2-adal-popup-fork',
       'adal': 'npm:adal-angular/lib',
       'adal-angular': 'npm:adal-angular/lib',
 
@@ -37,7 +37,7 @@
         main: './main.js',
         defaultExtension: 'js'
       },
-      'ng2-adal': { main: 'core.js', defaultExtension: 'js' },
+      'ng2-adal-popup-fork': { main: 'core.js', defaultExtension: 'js' },
       'adal-angular': {main: 'adal-angular', defaultExtension: 'js'},
       'adal': { main: 'adal.js', defaultExtension: 'js' },
       'rxjs': {

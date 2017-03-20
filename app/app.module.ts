@@ -1,7 +1,7 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import {AdalService} from 'ng2-adal/core';
+import { AdalService } from "ng2-adal-popup-fork/services/adal.service";
 import {SecretService} from './services/secret.service';
 
 import { AppComponent }  from './components/app.component';

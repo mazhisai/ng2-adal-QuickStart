@@ -1,9 +1,9 @@
 import {Component} from '@angular/core';
-import {AdalService} from 'ng2-adal/core';
+import { AdalService } from "ng2-adal-popup-fork/services/adal.service";
 
 @Component({
   selector: 'home',
-  template: '<div protected><h1>This is the dashboard page.</h1><button (click)="logOut()">Logout</button></div>'
+  template: '<div protected><h1>This is the dashboard page for {{this.adalService.userInfo.userName}}.</h1><button (click)="logOut()">Logout</button></div>'
 })
 export class HomeComponent {
 
