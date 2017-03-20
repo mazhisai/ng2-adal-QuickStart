@@ -13,7 +13,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
-  "keywords": [],
+  "keywords": ["adal", "popUp"],
   "author": "",
   "license": "MIT",
   "dependencies": {
