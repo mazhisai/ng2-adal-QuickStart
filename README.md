@@ -1,14 +1,13 @@
-# ng2-adal Quickstart
-The very well known updated Angular Quickstart repository updated with ng2-adal, a module based on angular2-adal, a very well written library that is known to cause some pains because of rapid breaking changes in Angular.
+It was quite difficult to find a working sample for an angular2 app that has working pop-up solution. so i decided to put together one. Its a fork from @ranveeraggarwal's quickStart app. This uses https://www.npmjs.com/package/ng2-adal-popup-fork package. This pacakge was created from https://github.com/mazhisai/angular2-adal. This repo is a fork on top of @corfor repo. i have a pending PR, once it makes it way into https://github.com/sureshchahal/angular2-adal, i will update the samples accordingly.
 
-This one works and I am currently using this for a personal project.
-
- Please let me know in case of bugs/issues.
+Credits:
+@ranveeraggarwal - changes are on top of the app he created https://github.com/ranveeraggarwal/ng2-adal-QuickStart
+@slubowsky for helping with his suggestions - https://github.com/sureshchahal/angular2-adal/issues/25
+@corfor and @sureshchahal - the solution works based on a patch i created on top of ng2-adal library and @corfor's changes.
 
 ## How to use
-1. Rename app/services/secret.service.ts.template to app/services/secret.service.ts and add your  tenant and client ID.
-2. Remove secret.service.ts from .gitignore
-3. Run `npm install`
-4. Run `npm start`
+1. Update app/services/secret.service.ts and add your  tenant and client ID.
+2. Run `npm install`
+3. Run `npm start`
 
 And that's pretty much it.
